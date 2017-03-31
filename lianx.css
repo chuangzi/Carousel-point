@@ -1,0 +1,27 @@
+.slider {
+    width: 710px;
+    height: 370px;
+    position: relative;
+}
+
+.slider .dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+/*.slider .dots span {
+    font-size: 0;
+    margin: 0 10px;
+    padding: 5px;
+    background-color: #F00;
+    border-radius: 50%;
+}*/
+.slider .dots a{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+    background-color: #F00;
+    border-radius: 50%;
+}
